@@ -1,0 +1,19 @@
+.status-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: #6b6b6b;
+  /*opacity: 0.7; /*opacity:불투명도*/
+  position: fixed;
+  width: 100%;
+  right: 0px;
+  top: 0px;
+  padding: 5px 20px;
+}
+
+.status-bar i {
+  font-size: 14px;
+}
+.status-bar .status-bar__battery-level {
+  margin-left: 5px;
+}
