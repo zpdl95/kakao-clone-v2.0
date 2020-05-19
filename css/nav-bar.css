@@ -1,0 +1,14 @@
+.navi {
+  position: fixed; /*fixed는 크기가 있어야한다(width필수)*/
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.navi .navi__list {
+  display: flex;
+  justify-content: space-between;
+}
